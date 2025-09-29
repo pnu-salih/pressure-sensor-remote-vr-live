@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 public class PressureReceiver : MonoBehaviour
 {
-    public int serverPort = 8000;
+    public int serverPort = 9000;
     public TextMeshProUGUI pressureText;
 
     private TcpListener _listener;
@@ -59,3 +59,4 @@ public class PressureReceiver : MonoBehaviour
         _listener?.Stop();
     }
 }
+
